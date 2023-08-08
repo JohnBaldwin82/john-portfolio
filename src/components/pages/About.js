@@ -1,9 +1,10 @@
 import React from 'react';
-
+let mypic = "/profile.jpg"
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      <img height= "175px" width= "175px" src= {process.env.PUBLIC_URL + mypic} alt= 'mypic'/>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
